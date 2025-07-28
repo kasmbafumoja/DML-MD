@@ -1,11 +1,11 @@
 {
   "name": "TERMUX-MD",
-  "description": "An Advanced Whatsapp bot 🚀 built for fast automation, media tool, and smooth group management developed by Daudy Musa",
+  "description": "TERMUX-MD 🚀 est un bot WhatsApp avancé, créé en République Démocratique du Congo 🇨🇩 par le hacker Kasereka Mbafumoja. Il offre une automatisation rapide, des outils multimédias et une gestion fluide des groupes.",
   "logo": "https://imgur.com/a/YAV561j",
-  "keywords": ["DML-MD"],
+  "keywords": ["TERMUX-MD"],
   "success_url": "/",
 
-    "stack": "container",
+  "stack": "container",
   "env": {
     "SESSION_ID": {
       "description": "Put the session-id here.",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "DML-MD"
+      "value": "TERMUX-MD"
     }, 
       
     "PREFIX": {
@@ -29,10 +29,9 @@
       "description": "select your bot work type public-private-inbox-group.",
       "required": false,
       "value": "public"
-      
     },
 
-     "ANTI_DELETE": {
+    "ANTI_DELETE": {
       "description": "set true for show deleted messages.",
       "required": false,
       "value": "true"  
@@ -56,7 +55,6 @@
       "value": "false"
     }, 
 
-
     "AUTO_STATUS_SEEN": {
       "description": "Make it true for automatic status seen.",
       "required": true,
@@ -78,42 +76,37 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY DML-MD 🇹🇿*"
-   
-     }, 
+      "value": "*SEEN YOUR STATUS BY TERMUX-MD 🇨🇩*"
+    }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "DML-TECH"
-}, 
+      "value": "Kasereka Mbafumoja"
+    }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
       "value": "255622220680"
-
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "DML-MD"
-
-      }, 
+      "value": "TERMUX-MD"
+    }, 
 
     "ANTI_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
       "required": true,
       "value": "true"
-      
     },
 
-     "ANTI_LINK_KICK": {
+    "ANTI_LINK_KICK": {
       "description": "Make it true if you want bot auto remove group link.",
       "required": true,
       "value": "false"
-      
     },
     
     "ANTI_BAD": {
@@ -122,7 +115,7 @@
       "value": "false"
     },
 
-   "MENTION_REPLY": {
+    "MENTION_REPLY": {
       "description": "make it true if want mention reply if someone menetion you.",
       "required": false,
       "value": "false"
@@ -134,13 +127,13 @@
       "value": "https://files.catbox.moe/vcdwmp.jpg"
     },
     
-     "DESCRIPTION": {
+    "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© POWERED BY DML-TECH*"
+      "value": "*© POWERED BY TERMUX-MD 🇨🇩 | Créé par le hacker Kasereka Mbafumoja*"
     },
 
-      "DELETE_LINKS": {
+    "DELETE_LINKS": {
       "description": "remove links from group automatically without removing member",
       "required": false,
       "value": "false"
@@ -168,7 +161,6 @@
       "description": "Make it true if you want custom reactions.",
       "required": false,
       "value": "false"
-      
     }, 
     
     "CUSTOM_REACT_EMOJIS": {
@@ -200,14 +192,12 @@
       "required": false,
       "value": "false"
     }
+  },
 
-},
-
-     "buildpacks": [
-        {
-            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-        }
-     ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
   "stack": "heroku-24"
 }
-  
